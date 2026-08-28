@@ -1,6 +1,6 @@
 console.log("JavaScript is working!");
 
-const favoriteButton = document.querySelector("#favoriteButton");
+const favoriteButton = document.querySelector("#favoritebutton");
 const favoriteList = document.querySelector(".favorite-list");
 
 console.log(favoriteButton);
