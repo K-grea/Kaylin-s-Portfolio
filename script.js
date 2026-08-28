@@ -13,3 +13,25 @@ favoriteButton.addEventListener("click", function () {
         favoriteList.style.display = "none";
     }
 });
+
+const contactForm = document.querySelector("#contactForm");
+const nameInput = document.querySelector("#name");
+const emailInput = document.querySelector("#email");
+const formError = document.querySelector("#formError");
+
+contactForm.addEventListener("submit", function (event) {
+    event.preventDefault();
+    if (nameInput.value.trim() === "") {
+        formError.textContent = "Please enter your name.";
+        nameInput.focus();
+        return;
+    }
+
+    if (emailInput.value.trim() === "") {
+        formError.textContent = "Please enter your email.";
+        emailInput.focus();
+        return;
+
+    }
+    formError.textContent = "Thank you! Your message was submitted.";
+});
