@@ -35,3 +35,15 @@ contactForm.addEventListener("submit", function (event) {
     }
     formError.textContent = "Thank you! Your message was submitted.";
 });
+
+nameInput.addEventListener("input", function () {
+    if (nameInput.value.trim() !== "") {
+        formError.textContent = "";
+    }
+});
+
+emailInput.addEventListener("input", function () {
+    if (emailInput.value.trim() !== "") {
+        formError.textContent = "";
+    }
+});
