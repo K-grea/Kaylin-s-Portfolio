@@ -81,7 +81,7 @@ h1,
 h2,
 h3 {
     font-family: 'Griffy', static;
-    color: var(--pink);
+    color: var(--dark);
     margin-bottom: 1rem;
 }
 
