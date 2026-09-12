@@ -161,31 +161,31 @@ p {
             flex-direction: column;
             gap: 0.5rem;
         }
-    }
 
-    main {
-        width: 90%;
-        margin: 1.5rem auto;
-        padding: 1rem;
-    }
 
-    @media (max-width: 480px) {
         main {
+            width: 90%;
+            margin: 1.5rem auto;
             padding: 1rem;
         }
-    }
 
-    h1 {
-        font-size: 1.8rem;
-    }
+        @media (max-width: 480px) {
+            main {
+                padding: 1rem;
+            }
+        }
 
-    h2 {
-        font-size: 1.5rem;
+        h1 {
+            font-size: 1.8rem;
+        }
 
-    }
+        h2 {
+            font-size: 1.5rem;
 
-    img {
-        max-width: 100px;
-        height: auto;
+        }
+
+        img {
+            max-width: 100px;
+            height: auto;
+        }
     }
-}
