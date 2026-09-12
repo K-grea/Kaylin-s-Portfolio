@@ -159,7 +159,14 @@ p {
 
         nav ul {
             flex-direction: column;
+            gap: 0.5rem;
         }
+    }
+
+    main {
+        width: 90%;
+        margin: 1.5rem auto;
+        padding: 1rem;
     }
 
     @media (max-width: 480px) {
