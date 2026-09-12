@@ -165,8 +165,9 @@ p {
 
         main {
             width: 90%;
-            margin: 1.5rem auto;
-            padding: 1rem;
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 2rem;
         }
 
         @media (max-width: 480px) {
